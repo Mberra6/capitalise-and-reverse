@@ -8,4 +8,4 @@ Serverless Web Application to capitalise, reverse or capitalise and reverse a gi
     * AWS StepFunctions
     * AWS APIGateway
 
-Access the application: 
+Access the application: https://master.d2liw1ey0h20u5.amplifyapp.com
