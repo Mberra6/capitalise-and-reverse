@@ -1,5 +1,5 @@
 # CapitaliseAndReverse
-Serverless Web Application to capitalise, reverse or capitalise and reverse a given text.
+Serverless Web Application to Capitalise and Reverse a given text.
 
   - Services used:
     * AWS CodeCommit
