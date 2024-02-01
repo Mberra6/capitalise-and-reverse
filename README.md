@@ -8,4 +8,4 @@ Serverless Web Application to Capitalise and Reverse a given text.
     * AWS StepFunctions
     * AWS APIGateway
 
-Access the application: https://master.d2liw1ey0h20u5.amplifyapp.com
+Access the live application [here](https://master.d2liw1ey0h20u5.amplifyapp.com)
