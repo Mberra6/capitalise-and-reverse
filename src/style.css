@@ -7,11 +7,11 @@
 }
 
 :root {
-  --primary-color: #fcfbfb;
-  --white-color: #fff;
-  --black-color: #18191a;
-  --theme-color: #1F51FF;
-  --hover-color: indigo;
+  --primary: #2f27ce;
+  --primary-variant: #443dff;
+  --background: #FFFFFF;
+  --surface: #FFFFFF;
+  --on-primary: #FFFFFF;
 }
 
 body {
@@ -21,22 +21,23 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
-  background-color: var(--primary-color);
+  background-color: var(--background);
 }
 
 body.dark {
-  --primary-color: #242526;
-  --white-color: #18191a;
-  --black-color: #fff;
-  --theme-color: #4CBB17;
-  --hover-color: #18191a;
+  --primary: #3a31d8;
+  --primary-variant: #0600c2;
+  --secondary: #010104;
+  --surface: #020024;
+  --background: #121212;
+  --on-primary: #FFFFFF;
 }
 
 .titleText {
   margin-bottom: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
-  color: var(--theme-color);
+  color: var(--primary-variant);
 }
 
 .container {
@@ -44,7 +45,7 @@ body.dark {
   height: 500px;
   width: 500px;
   border-radius: 5%;
-  background-color: var(--white-color);
+  background-color: var(--surface);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 15px 25px rgba(0, 0, 0, 0.1);
 }
 
@@ -66,8 +67,8 @@ form {
   border-radius: 8px;
   padding: 15px;
   font-weight: 500;
-  background-color: var(--theme-color);
-  color: var(--white-color);
+  background-color: var(--primary);
+  color: var(--on-primary);
   border: none;
   font-size: 0.8em;
   width: 45%;
@@ -92,14 +93,14 @@ form {
   border: none;
   font-size: 0.8em;
   border-radius: 8px;
-  color: var(--white-color);
+  color: var(--on-primary);
   font-weight: 500;
-  background-color: var(--theme-color);
+  background-color: var(--primary);
 }
 
 .submitBtn:hover {
-  background-color: yellow;
-  color: var(--hover-color);
+  background-color: var(--primary-variant);
+  color: var(--on-primary);
   transform: scale(1.1);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
@@ -112,8 +113,8 @@ form {
   font-weight: 400;
   display: inline-block;
   cursor: pointer;
-  color: var(--white-color);
-  background-color: var(--black-color);
+  color: var(--on-primary);
+  background-color: var(--primary-variant);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
