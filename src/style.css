@@ -164,7 +164,7 @@ form {
   }
 
   .mode-switch {
-    padding: 10px 20px;
+    padding: 15px 25px;
     font-size: 1.5rem;
   }
   
@@ -203,7 +203,7 @@ form {
   }
 
   .mode-switch {
-    padding: 10px 20px;
+    padding: 15px 25px;
     font-size: 1.5rem;
   }
  
@@ -243,6 +243,7 @@ form {
     padding: 15px 25px;
     font-size: 1.5rem;
   }
+
 }
 
 /* Large Tablets/Laptops */
@@ -311,7 +312,7 @@ form {
 
   .mode-switch {
     padding: 15px 25px;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
  
 }
