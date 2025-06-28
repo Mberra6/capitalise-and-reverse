@@ -1,9 +1,10 @@
 version: 1
 frontend:
   phases:
+    preBuild:
+      commands: []
     build:
-      commands:
-        - echo "No build needed"
+      commands: []
   artifacts:
     baseDirectory: .
     files:
