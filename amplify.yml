@@ -5,7 +5,7 @@ frontend:
       commands:
         - echo "No build needed"
   artifacts:
-    baseDirectory: src
+    baseDirectory: .
     files:
       - '**/*'
   cache:
